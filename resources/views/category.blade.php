@@ -25,7 +25,7 @@
 
         <ul class="hidden md:flex space-x-8 text-sm font-semibold text-gray-600">
             <li><a href="/category" class="text-red-700 border-b-2 border-red-700 pb-1">PRODUCTS</a></li>
-            <li><a href="/#about" class="hover:text-red-700 transition">ABOUT</a></li>
+            <li><a href="/" class="hover:text-red-700 transition">ABOUT</a></li>
             <li><a href="/" class="hover:text-red-700 transition">CONTACT</a></li>
         </ul>
         
