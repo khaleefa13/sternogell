@@ -60,7 +60,7 @@
                     </div>
                     <div>
                         <h3 class="font-bold text-black mb-1">Kantor Pusat</h3>
-                        <p class="text-sm text-gray-600">Jl. Industri Raya No. 45, Kawasan Pergudangan, Jakarta, Indonesia</p>
+                        <p class="text-sm text-gray-600">Jl. Majapahit no 2 sunten Jomblangan Banguntapan Bantul Yogyakarta</p>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@
                     </div>
                     <div>
                         <h3 class="font-bold text-black mb-1">Telepon & WhatsApp</h3>
-                        <p class="text-sm text-gray-600">+62 812-3456-7890<br>(021) 9876-5432</p>
+                        <p class="text-sm text-gray-600">+62 813-2560-6286</p>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
                     </div>
                     <div>
                         <h3 class="font-bold text-black mb-1">Email</h3>
-                        <p class="text-sm text-gray-600">info@agisanawasena.com<br>sales@agisanawasena.com</p>
+                        <p class="text-sm text-gray-600">info@agisanawasena.com</p>
                     </div>
                 </div>
             </div>
@@ -89,36 +89,53 @@
                 <div class="absolute top-0 left-0 w-full h-1 bg-red-700"></div>
                 <h3 class="text-xl font-bold text-black mb-6">Kirim Pesan</h3>
                 
-                <form action="#" method="POST" class="space-y-6">
+                @if(session('success'))
+                    <div class="mb-6 bg-green-50 border-l-4 border-green-500 p-4">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-circle-check text-green-500"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-green-700 font-semibold">
+                                    {{ session('success') }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+
+                <form action="{{ route('contact.send') }}" method="POST" class="space-y-6">
+                    @csrf
+                    
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-xs font-bold text-gray-700 tracking-wide mb-2">NAMA LENGKAP</label>
-                            <input type="text" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="John Doe" required>
+                            <input type="text" name="nama" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="John Doe" required>
                         </div>
                         <div>
                             <label class="block text-xs font-bold text-gray-700 tracking-wide mb-2">NAMA PERUSAHAAN</label>
-                            <input type="text" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="PT Contoh Industri">
+                            <input type="text" name="perusahaan" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="PT Contoh Industri">
                         </div>
                     </div>
 
                     <div>
                         <label class="block text-xs font-bold text-gray-700 tracking-wide mb-2">ALAMAT EMAIL</label>
-                        <input type="email" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="john@example.com" required>
+                        <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="john@example.com" required>
                     </div>
 
                     <div>
                         <label class="block text-xs font-bold text-gray-700 tracking-wide mb-2">KEBUTUHAN</label>
-                        <select class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition bg-white text-gray-600">
+                        <select name="kebutuhan" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition bg-white text-gray-600" required>
                             <option value="">-- Pilih Kebutuhan --</option>
-                            <option value="sterno">Sterno Gel (Energi)</option>
-                            <option value="garam">Garam Industri</option>
-                            <option value="lainnya">Pertanyaan Umum / Lainnya</option>
+                            <option value="Sterno Gel (Energi)">Sterno Gel (Energi)</option>
+                            <option value="Garam Industri">Garam Industri</option>
+                            <option value="Lainnya">Pertanyaan Umum / Lainnya</option>
                         </select>
                     </div>
 
                     <div>
                         <label class="block text-xs font-bold text-gray-700 tracking-wide mb-2">PESAN DETAIL</label>
-                        <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="Jelaskan kebutuhan spesifikasi, estimasi volume, atau pertanyaan Anda..." required></textarea>
+                        <textarea name="pesan" rows="4" class="w-full px-4 py-3 border border-gray-300 focus:outline-none focus:border-red-700 focus:ring-1 focus:ring-red-700 transition" placeholder="Jelaskan kebutuhan spesifikasi, estimasi volume, atau pertanyaan Anda..." required></textarea>
                     </div>
 
                     <button type="submit" class="w-full bg-black text-white font-bold tracking-widest py-4 hover:bg-red-700 transition duration-300 shadow-md">

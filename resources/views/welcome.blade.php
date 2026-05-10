@@ -70,7 +70,7 @@
         <div class="max-w-6xl mx-auto text-center mb-12 px-8">
             <h2 class="text-2xl font-bold tracking-widest mb-2">STERNO GEL SERIES</h2>
             <p class="text-xs text-gray-500 tracking-[0.3em] mb-4">PRECISION PACKAGING FUEL</p>
-            <p class="text-xs text-red-600 italic"><i class="fa-solid fa-hand-pointer mr-1"></i> Sentuh atau arahkan kursor ke produk untuk efek 3D</p>
+            <p class="text-xs text-red-600 italic"></p>
         </div>
         
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
@@ -197,7 +197,7 @@
         </div>
     </section>
 
-    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000');">
+    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: ">
         <div class="absolute inset-0 bg-black bg-opacity-80"></div>
         <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">READY FOR PRECISION POWER?</h2>
