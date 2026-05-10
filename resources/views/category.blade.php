@@ -28,15 +28,19 @@
             <li><a href="/" class="hover:text-red-700 transition">ABOUT</a></li>
             <li><a href="/contact" class="hover:text-red-700 transition">CONTACT</a></li>
         </ul>
-        
-       
     </nav>
 
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 absolute w-full z-40 shadow-lg top-[69px] left-0">
+        <ul class="flex flex-col px-8 py-4 space-y-4 text-sm font-semibold text-gray-600">
+            <li><a href="/category" class="text-red-700 block">PRODUCTS</a></li>
+            <li><a href="/" class="hover:text-red-700 transition block">ABOUT</a></li>
+            <li><a href="/contact" class="hover:text-red-700 transition block">CONTACT</a></li>
+        </ul>
+    </div>
 
-
-    <header class="bg-black text-white py-16 text-center border-b-4 border-red-700">
-        <h1 class="text-3xl md:text-4xl font-bold tracking-widest mb-2">KATEGORI PRODUK</h1>
-        <p class="text-sm tracking-[0.2em] text-gray-400">PILIHAN LINI BISNIS UTAMA KAMI</p>
+    <header class="bg-black text-white py-12 md:py-16 text-center border-b-4 border-red-700 px-4">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-widest mb-2 leading-snug">KATEGORI PRODUK</h1>
+        <p class="text-[10px] sm:text-xs md:text-sm tracking-[0.2em] text-gray-400">PILIHAN LINI BISNIS UTAMA KAMI</p>
     </header>
 
     <main class="flex-grow max-w-6xl mx-auto px-8 py-16 w-full">
@@ -52,8 +56,8 @@
                     </a>
                 </div>
             </div>
-            
-             <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+
+            <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
                 <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800" alt="Sterno Gel Energi" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
                 <div class="p-6 h-1/3 flex flex-col justify-center items-center text-center bg-white">
                     <h3 class="text-2xl font-bold tracking-widest text-black mb-1">STERNO GEL</h3>
@@ -64,14 +68,14 @@
                 </div>
             </div>
             
-        </div>
+           
         
         <div class="mt-16 bg-white p-8 border border-gray-200 shadow-sm text-center flex flex-col md:flex-row justify-between items-center">
             <div class="text-left mb-4 md:mb-0">
                 <h4 class="text-lg font-bold text-red-700">Butuh spesifikasi khusus?</h4>
                 <p class="text-sm text-gray-600">Tim kami siap membantu kebutuhan industri Anda dalam skala besar.</p>
             </div>
-            <a href="/" class="border-2 border-black text-black font-bold py-2 px-8 hover:bg-black hover:text-white transition">
+            <a href="/contact" class="border-2 border-black text-black font-bold py-2 px-8 hover:bg-black hover:text-white transition">
                 HUBUNGI KAMI
             </a>
         </div>
@@ -102,17 +106,19 @@
         const menu = document.getElementById('mobile-menu');
         const icon = btn.querySelector('i');
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-            
-            if(menu.classList.contains('hidden')){
-                icon.classList.remove('fa-xmark');
-                icon.classList.add('fa-bars');
-            } else {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-xmark');
-            }
-        });
+        if(btn && menu && icon) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                
+                if(menu.classList.contains('hidden')){
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+        }
     </script>
 </body>
 </html>

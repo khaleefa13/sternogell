@@ -20,22 +20,34 @@
 
     <nav class="flex justify-between items-center px-8 py-4 bg-white border-b border-gray-200 sticky top-0 z-50">
         <div class="text-xl font-bold text-red-700 tracking-wider">
-            STERNO <span class="text-black">GEL</span>
+            <a href="/">STERNO <span class="text-black">GEL</span></a>
         </div>
+        
+        <button id="mobile-menu-btn" class="md:hidden text-gray-800 focus:outline-none absolute right-8">
+            <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+
         <ul class="hidden md:flex space-x-8 text-sm font-semibold text-gray-600">
             <li><a href="/category" class="hover:text-red-700 transition">PRODUCTS</a></li>
             <li><a href="/" class="text-red-700 border-b-2 border-red-700 pb-1">ABOUT</a></li>
             <li><a href="/contact" class="hover:text-red-700 transition">CONTACT</a></li>
         </ul>
-        
     </nav>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 absolute w-full z-40 shadow-lg top-[69px] left-0">
+        <ul class="flex flex-col px-8 py-4 space-y-4 text-sm font-semibold text-gray-600">
+            <li><a href="/category" class="hover:text-red-700 transition block">PRODUCTS</a></li>
+            <li><a href="/" class="text-red-700 block">ABOUT</a></li>
+            <li><a href="/contact" class="hover:text-red-700 transition block">CONTACT</a></li>
+        </ul>
+    </div>
 
     <header class="bg-black text-white flex flex-col justify-center items-center h-[60vh] text-center px-4 relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-black z-0"></div>
-        <div class="relative z-10">
-            <h1 class="text-3xl md:text-5xl font-bold tracking-widest mb-4">PT AGISA DIMARTA PERKASA</h1>
-            <div class="w-24 h-1 bg-red-700 mx-auto mb-4"></div>
-            <p class="text-sm md:text-base tracking-[0.2em] text-gray-300">SOLUSI ENERGI TERPERCAYA</p>
+        <div class="relative z-10 w-full max-w-4xl mx-auto px-4">
+            <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold tracking-widest mb-4 leading-snug">PT AGISA DIMARTA PERKASA</h1>
+            <div class="w-16 md:w-24 h-1 bg-red-700 mx-auto mb-4"></div>
+            <p class="text-[10px] sm:text-xs md:text-base tracking-[0.2em] text-gray-300">SOLUSI ENERGI TERPERCAYA</p>
         </div>
     </header>
 
@@ -58,7 +70,7 @@
         <div class="max-w-6xl mx-auto text-center mb-12 px-8">
             <h2 class="text-2xl font-bold tracking-widest mb-2">STERNO GEL SERIES</h2>
             <p class="text-xs text-gray-500 tracking-[0.3em] mb-4">PRECISION PACKAGING FUEL</p>
-            <p class="text-xs text-red-600 italic">
+            <p class="text-xs text-red-600 italic"><i class="fa-solid fa-hand-pointer mr-1"></i> Sentuh atau arahkan kursor ke produk untuk efek 3D</p>
         </div>
         
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
@@ -185,12 +197,12 @@
         </div>
     </section>
 
-    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: ;">
+    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000');">
         <div class="absolute inset-0 bg-black bg-opacity-80"></div>
         <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">READY FOR PRECISION POWER?</h2>
             <p class="mb-8 text-gray-300 text-sm md:text-base">Contact our industrial logistics team for bulk pricing, MSDS sheets, and technical consultation.</p>
-            <a href="#" class="inline-block bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 transition shadow-lg transform hover:scale-105">
+            <a href="/contact" class="inline-block bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 transition shadow-lg transform hover:scale-105">
                 HUBUNGI KAMI
             </a>
         </div>
@@ -202,7 +214,7 @@
                 STERNO <br> GEL
             </div>
             <div class="text-center mb-4 md:mb-0">
-                &copy; 2024 AGISA NAWASENA JAYA. ALL RIGHTS RESERVED. <br>
+                &copy; 2026 AGISA NAWASENA JAYA. ALL RIGHTS RESERVED. <br>
                 SOLUSI ENERGI & GARAM INDUSTRI.
             </div>
             <div class="flex flex-wrap justify-center gap-4">
@@ -215,5 +227,25 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const icon = btn.querySelector('i');
+
+        if(btn && menu && icon) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                
+                if(menu.classList.contains('hidden')){
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+        }
+    </script>
 </body>
 </html>

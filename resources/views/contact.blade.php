@@ -28,28 +28,19 @@
             <li><a href="/" class="hover:text-red-700 transition">ABOUT</a></li>
             <li><a href="/contact" class="text-red-700 border-b-2 border-red-700 pb-1">CONTACT</a></li>
         </ul>
-        
-       
     </nav>
 
     <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 absolute w-full z-40 shadow-lg top-[69px] left-0">
         <ul class="flex flex-col px-8 py-4 space-y-4 text-sm font-semibold text-gray-600">
             <li><a href="/category" class="hover:text-red-700 transition block">PRODUCTS</a></li>
-            <li><a href="/#applications" class="hover:text-red-700 transition block">APPLICATIONS</a></li>
-            <li><a href="/#safety" class="hover:text-red-700 transition block">SAFETY</a></li>
-            <li><a href="/#about" class="hover:text-red-700 transition block">ABOUT</a></li>
+            <li><a href="/" class="hover:text-red-700 transition block">ABOUT</a></li>
             <li><a href="/contact" class="text-red-700 block">CONTACT</a></li>
-            <li class="pt-2 border-t border-gray-100">
-                <a href="/#quote" class="bg-red-700 text-white px-6 py-3 text-sm font-bold hover:bg-red-800 transition text-center block w-full">
-                    GET A QUOTE
-                </a>
-            </li>
         </ul>
     </div>
 
-    <header class="bg-black text-white py-16 text-center border-b-4 border-red-700">
-        <h1 class="text-3xl md:text-4xl font-bold tracking-widest mb-2">HUBUNGI KAMI</h1>
-        <p class="text-sm tracking-[0.2em] text-gray-400">MARI JALIN KERJA SAMA DENGAN KAMI</p>
+    <header class="bg-black text-white py-12 md:py-16 text-center border-b-4 border-red-700 px-4">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-widest mb-2 leading-snug">HUBUNGI KAMI</h1>
+        <p class="text-[10px] sm:text-xs md:text-sm tracking-[0.2em] text-gray-400">MARI JALIN KERJA SAMA DENGAN KAMI</p>
     </header>
 
     <main class="flex-grow max-w-6xl mx-auto px-8 py-16 w-full">
@@ -164,17 +155,19 @@
         const menu = document.getElementById('mobile-menu');
         const icon = btn.querySelector('i');
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-            
-            if(menu.classList.contains('hidden')){
-                icon.classList.remove('fa-xmark');
-                icon.classList.add('fa-bars');
-            } else {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-xmark');
-            }
-        });
+        if(btn && menu && icon) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                
+                if(menu.classList.contains('hidden')){
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+        }
     </script>
 </body>
 </html>
