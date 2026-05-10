@@ -26,28 +26,13 @@
         <ul class="hidden md:flex space-x-8 text-sm font-semibold text-gray-600">
             <li><a href="/category" class="text-red-700 border-b-2 border-red-700 pb-1">PRODUCTS</a></li>
             <li><a href="/" class="hover:text-red-700 transition">ABOUT</a></li>
-            <li><a href="/" class="hover:text-red-700 transition">CONTACT</a></li>
+            <li><a href="/contact" class="hover:text-red-700 transition">CONTACT</a></li>
         </ul>
         
-        <a href="/#quote" class="hidden md:inline-block bg-red-700 text-white px-6 py-2 text-sm font-bold hover:bg-red-800 transition shadow-md">
-            GET A QUOTE
-        </a>
+       
     </nav>
 
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 absolute w-full z-40 shadow-lg top-[69px] left-0">
-        <ul class="flex flex-col px-8 py-4 space-y-4 text-sm font-semibold text-gray-600">
-            <li><a href="/category" class="text-red-700 block">PRODUCTS</a></li>
-            <li><a href="/#applications" class="hover:text-red-700 transition block">APPLICATIONS</a></li>
-            <li><a href="/#safety" class="hover:text-red-700 transition block">SAFETY</a></li>
-            <li><a href="/#about" class="hover:text-red-700 transition block">ABOUT</a></li>
-            <li><a href="/" class="hover:text-red-700 transition block">CONTACT</a></li>
-            <li class="pt-2 border-t border-gray-100">
-                <a href="/#quote" class="bg-red-700 text-white px-6 py-3 text-sm font-bold hover:bg-red-800 transition text-center block w-full">
-                    GET A QUOTE
-                </a>
-            </li>
-        </ul>
-    </div>
+
 
     <header class="bg-black text-white py-16 text-center border-b-4 border-red-700">
         <h1 class="text-3xl md:text-4xl font-bold tracking-widest mb-2">KATEGORI PRODUK</h1>
@@ -67,18 +52,18 @@
                     </a>
                 </div>
             </div>
-
-            <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
-                <img src="https://images.unsplash.com/photo-1574329668383-056346b08058?auto=format&fit=crop&q=80&w=800" alt="Garam Industri" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
+            
+             <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800" alt="Sterno Gel Energi" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
                 <div class="p-6 h-1/3 flex flex-col justify-center items-center text-center bg-white">
-                    <h3 class="text-2xl font-bold tracking-widest text-black mb-1">GARAM INDUSTRI</h3>
-                    <p class="text-sm font-light text-gray-500 mb-4">Distributor Garam Terpercaya</p>
-                    <a href="#" class="inline-block text-xs font-bold bg-black text-white px-6 py-2 hover:bg-gray-800 transition shadow-md">
+                    <h3 class="text-2xl font-bold tracking-widest text-black mb-1">STERNO GEL</h3>
+                    <p class="text-sm font-light text-gray-500 mb-4">Solusi Energi Panas Presisi</p>
+                    <a href="#" class="inline-block text-xs font-bold bg-red-700 text-white px-6 py-2 hover:bg-red-800 transition shadow-md">
                         LIHAT DETAIL <i class="fa-solid fa-arrow-right ml-1"></i>
                     </a>
                 </div>
             </div>
-
+            
         </div>
         
         <div class="mt-16 bg-white p-8 border border-gray-200 shadow-sm text-center flex flex-col md:flex-row justify-between items-center">

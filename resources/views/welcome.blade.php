@@ -24,18 +24,16 @@
         </div>
         <ul class="hidden md:flex space-x-8 text-sm font-semibold text-gray-600">
             <li><a href="/category" class="hover:text-red-700 transition">PRODUCTS</a></li>
-            <li><a href="#" class="text-red-700 border-b-2 border-red-700 pb-1">ABOUT</a></li>
-            <li><a href="#" class="hover:text-red-700 transition">CONTACT</a></li>
+            <li><a href="/" class="text-red-700 border-b-2 border-red-700 pb-1">ABOUT</a></li>
+            <li><a href="/contact" class="hover:text-red-700 transition">CONTACT</a></li>
         </ul>
-        <a href="#" class="bg-red-700 text-white px-6 py-2 text-sm font-bold hover:bg-red-800 transition shadow-md">
-            GET A QUOTE
-        </a>
+        
     </nav>
 
     <header class="bg-black text-white flex flex-col justify-center items-center h-[60vh] text-center px-4 relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-black z-0"></div>
         <div class="relative z-10">
-            <h1 class="text-3xl md:text-5xl font-bold tracking-widest mb-4">PT AGISA DIMARTA JAYA</h1>
+            <h1 class="text-3xl md:text-5xl font-bold tracking-widest mb-4">PT AGISA DIMARTA PERKASA</h1>
             <div class="w-24 h-1 bg-red-700 mx-auto mb-4"></div>
             <p class="text-sm md:text-base tracking-[0.2em] text-gray-300">SOLUSI ENERGI TERPERCAYA</p>
         </div>
@@ -187,7 +185,7 @@
         </div>
     </section>
 
-    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000');">
+    <section class="relative bg-black py-24 px-8 bg-cover bg-center" style="background-image: ;">
         <div class="absolute inset-0 bg-black bg-opacity-80"></div>
         <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">READY FOR PRECISION POWER?</h2>
