@@ -63,11 +63,10 @@
         <div class="relative z-10 w-full max-w-5xl mx-auto px-4 flex flex-col items-center">
             <span class="text-red-600 font-bold tracking-[0.2em] text-[10px] sm:text-xs md:text-sm mb-4 md:mb-6 uppercase border border-red-200 px-4 py-1.5 rounded-full bg-red-50">Solusi Energi Terpercaya</span>
             
-            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 leading-[1.15] text-slate-900">
-                PT AGISA <br class="block md:hidden"/>
-                DIMARTA <br/>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800">PERKASA</span>
-            </h1>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 leading-tight md:leading-[1.15] text-slate-900">
+    PT AGISA DIMARTA 
+    <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800">PERKASA</span>
+    </h1>
             
             <p class="text-sm md:text-lg text-slate-600 max-w-2xl mt-2 font-medium leading-relaxed px-4">
                 Menghadirkan inovasi dan efisiensi melalui produk Sterno Gel berkualitas tinggi untuk kebutuhan industri dan komersial Anda.
