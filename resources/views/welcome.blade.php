@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT Agisa Nawasena Jaya - Sterno Gel</title>
+    <title>PT Agisa Dimarta Perkasa - Sterno Gel</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -104,11 +104,11 @@
                 
                 <div class="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer" data-tilt data-tilt-max="5" data-tilt-speed="400">
                     <div class="h-48 md:h-56 bg-gray-100 flex items-center justify-center p-6 md:p-8 overflow-hidden">
-                        <img src="https://via.placeholder.com/300x200/EEEEEE/000000?text=Sterno+190" alt="SG-190" class="h-full object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-xl">
+                        <img src="Sterno 190.jpg" alt="SG-190" class="h-full object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-xl">
                     </div>
                     <div class="p-6 md:p-8">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="font-extrabold text-lg md:text-xl text-black">Sterno 190</h3>
+                            <h3 class="font-extrabold text-lg md:text-xl text-black">SG-190</h3>
                             <span class="bg-red-100 text-red-700 text-[10px] md:text-xs font-bold px-2 md:px-3 py-1 rounded-full">190G</span>
                         </div>
                         <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Standard burn time for typical catering and hospitality applications.</p>
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="group bg-white rounded-2xl border-2 border-red-700 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden cursor-pointer relative transform md:-translate-y-4" data-tilt data-tilt-max="5" data-tilt-speed="400">
-                    <div class="absolute top-0 right-0 bg-red-700 text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-bl-lg z-10">BEST SELLER</div>
+                   
                     <div class="h-48 md:h-56 bg-gray-100 flex items-center justify-center p-6 md:p-8 overflow-hidden">
                         <img src="https://via.placeholder.com/300x200/EEEEEE/000000?text=SG-250" alt="SG-250" class="h-full object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-xl">
                     </div>
@@ -136,7 +136,7 @@
                     <div class="p-6 md:p-8">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="font-extrabold text-lg md:text-xl text-black">SG-400 MAX</h3>
-                            <span class="bg-black text-white text-[10px] md:text-xs font-bold px-2 md:px-3 py-1 rounded-full">400G</span>
+                            <span class="bg-red-100 text-red-700 text-[10px] md:text-xs font-bold px-2 md:px-3 py-1 rounded-full">250G</span>
                         </div>
                         <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Maximum heat output and longevity for large-scale industrial heating.</p>
                     </div>
@@ -280,8 +280,8 @@
                 STERNO<span class="text-red-700">GEL.</span>
             </div>
             <div class="text-center text-[10px] md:text-xs text-gray-500">
-                &copy; 2026 PT AGISA NAWASENA JAYA. ALL RIGHTS RESERVED. <br class="hidden md:block">
-                SOLUSI ENERGI & GARAM INDUSTRI.
+                &copy; 2026 PT AGISA DIMARTA PERKASA. ALL RIGHTS RESERVED. <br class="hidden md:block">
+                SOLUSI ENERGI TERPERCAYA.
             </div>
             <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-[10px] md:text-xs font-semibold">
                 <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>

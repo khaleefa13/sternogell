@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kategori Produk - PT Agisa Nawasena Jaya</title>
+    <title>Kategori Produk - PT PT Agisa Dimarta Perkasa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -74,7 +74,7 @@
             <div class="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 overflow-hidden cursor-pointer flex flex-col" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
                 <div class="h-40 md:h-64 overflow-hidden relative bg-gray-100 p-4 flex items-center justify-center">
                     <div class="absolute top-3 right-3 md:top-4 md:right-4 bg-red-700 text-white text-[10px] md:text-xs font-bold px-2.5 py-1 rounded-full z-10 shadow-lg">190G</div>
-                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800" alt="Sterno Gel 190" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out">
+                    <img src="Sterno 190.jpg" alt="Sterno Gel 190" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out">
                 </div>
                 <div class="p-6 md:p-8 flex-grow flex flex-col justify-center items-center text-center">
                     <h3 class="text-xl md:text-2xl font-extrabold text-black mb-2 tracking-tight">STERNO GEL 190</h3>
