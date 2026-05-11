@@ -44,7 +44,7 @@
             <ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600 tracking-wide">
                 <li><a href="/category" class="text-red-700 relative">PRODUCTS<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-red-700"></span></a></li>
                 <li><a href="/" class="hover:text-red-700 transition-colors duration-300 relative group">ABOUT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors duration-300 relative group">CONTACT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/contact" class="hover:text-red-700 transition-colors duration-300 relative group">CONTACT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
             </ul>
         </div>
 
@@ -52,7 +52,7 @@
             <ul class="flex flex-col px-5 py-6 space-y-5 text-sm font-semibold text-slate-700">
                 <li><a href="/category" class="text-red-700 block pl-3 border-l-4 border-red-700 bg-red-50/50 py-1">PRODUCTS</a></li>
                 <li><a href="/" class="hover:text-red-700 transition-colors block">ABOUT</a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors block">CONTACT</a></li>
+                <li><a href="/contact" class="hover:text-red-700 transition-colors block">CONTACT</a></li>
             </ul>
         </div>
     </nav>
@@ -136,7 +136,7 @@
                 <h4 class="text-xl md:text-3xl font-extrabold text-slate-900 mb-2">Butuh spesifikasi khusus?</h4>
                 <p class="text-xs md:text-base text-slate-600 font-medium">Tim kami siap membantu kebutuhan industri Anda dalam skala besar.</p>
             </div>
-            <a href="/" class="relative z-10 bg-red-700 text-white font-bold py-3 px-6 md:py-4 md:px-8 rounded-full hover:bg-red-800 transition-colors shadow-[0_0_20px_rgba(185,28,28,0.3)] hover:shadow-[0_0_25px_rgba(185,28,28,0.5)] whitespace-nowrap text-xs md:text-base">
+            <a href="/contact" class="relative z-10 bg-red-700 text-white font-bold py-3 px-6 md:py-4 md:px-8 rounded-full hover:bg-red-800 transition-colors shadow-[0_0_20px_rgba(185,28,28,0.3)] hover:shadow-[0_0_25px_rgba(185,28,28,0.5)] whitespace-nowrap text-xs md:text-base">
                 HUBUNGI KAMI SEKARANG
             </a>
         </div>

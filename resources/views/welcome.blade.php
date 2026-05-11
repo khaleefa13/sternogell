@@ -44,7 +44,7 @@
             <ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600 tracking-wide">
                 <li><a href="/category" class="hover:text-red-700 transition-colors duration-300 relative group">PRODUCTS<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
                 <li><a href="/" class="text-red-700 relative">ABOUT<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-red-700"></span></a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors duration-300 relative group">CONTACT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/contact" class="hover:text-red-700 transition-colors duration-300 relative group">CONTACT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
             </ul>
         </div>
 
@@ -52,7 +52,7 @@
             <ul class="flex flex-col px-5 py-6 space-y-5 text-sm font-semibold text-slate-700">
                 <li><a href="/category" class="hover:text-red-700 transition-colors block">PRODUCTS</a></li>
                 <li><a href="/" class="text-red-700 block pl-3 border-l-4 border-red-700 bg-red-50/50 py-1">ABOUT</a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors block">CONTACT</a></li>
+                <li><a href="/contact" class="hover:text-red-700 transition-colors block">CONTACT</a></li>
             </ul>
         </div>
     </nav>
@@ -63,10 +63,10 @@
         <div class="relative z-10 w-full max-w-5xl mx-auto px-4 flex flex-col items-center">
             <span class="text-red-600 font-bold tracking-[0.2em] text-[10px] sm:text-xs md:text-sm mb-4 md:mb-6 uppercase border border-red-200 px-4 py-1.5 rounded-full bg-red-50">Solusi Energi Terpercaya</span>
             
-          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 leading-tight md:leading-[1.15] text-slate-900">
-    PT AGISA DIMARTA 
-    <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800">PERKASA</span>
-    </h1>
+            <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 leading-snug md:leading-[1.15] text-slate-900">
+                PT AGISA DIMARTA 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 block md:inline mt-1 md:mt-0">PERKASA</span>
+            </h1>
             
             <p class="text-sm md:text-lg text-slate-600 max-w-2xl mt-2 font-medium leading-relaxed px-4">
                 Menghadirkan inovasi dan efisiensi melalui produk Sterno Gel berkualitas tinggi untuk kebutuhan industri dan komersial Anda.
@@ -273,7 +273,7 @@
         <div class="relative z-10 max-w-3xl mx-auto text-center text-white">
             <h2 class="text-2xl md:text-4xl font-extrabold mb-4 tracking-tight">READY FOR PRECISION POWER?</h2>
             <p class="mb-8 md:mb-10 text-red-100 text-xs md:text-base font-medium leading-relaxed">Contact our industrial logistics team for bulk pricing, MSDS sheets, and technical consultation.</p>
-            <a href="/" class="inline-flex items-center justify-center bg-white text-red-700 font-bold py-3.5 px-8 md:py-4 md:px-10 rounded-full transition-transform transform hover:scale-105 shadow-[0_10px_30px_rgba(0,0,0,0.2)] text-xs md:text-sm hover:bg-slate-50">
+            <a href="/contact" class="inline-flex items-center justify-center bg-white text-red-700 font-bold py-3.5 px-8 md:py-4 md:px-10 rounded-full transition-transform transform hover:scale-105 shadow-[0_10px_30px_rgba(0,0,0,0.2)] text-xs md:text-sm hover:bg-slate-50">
                 HUBUNGI KAMI SEKARANG <i class="fa-solid fa-arrow-right ml-2 md:ml-3"></i>
             </a>
         </div>
