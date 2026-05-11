@@ -47,6 +47,17 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
             
             <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                <img src="Sterno 190.jpg" alt="Sterno Gel Energi" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
+                <div class="p-6 h-1/3 flex flex-col justify-center items-center text-center bg-white">
+                    <h3 class="text-2xl font-bold tracking-widest text-black mb-1">STERNO GEL</h3>
+                    <p class="text-sm font-light text-gray-500 mb-4">Solusi Energi Panas Presisi</p>
+                    <a href="#" class="inline-block text-xs font-bold bg-red-700 text-white px-6 py-2 hover:bg-red-800 transition shadow-md">
+                        LIHAT DETAIL <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
                 <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800" alt="Sterno Gel Energi" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
                 <div class="p-6 h-1/3 flex flex-col justify-center items-center text-center bg-white">
                     <h3 class="text-2xl font-bold tracking-widest text-black mb-1">STERNO GEL</h3>
@@ -67,10 +78,19 @@
                     </a>
                 </div>
             </div>
-            
-           
-        
-        <div class="mt-16 bg-white p-8 border border-gray-200 shadow-sm text-center flex flex-col md:flex-row justify-between items-center">
+
+            <div class="relative group cursor-pointer overflow-hidden shadow-2xl border border-gray-200 h-[400px] bg-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800" alt="Sterno Gel Energi" class="w-full h-2/3 object-cover transform group-hover:scale-105 transition duration-700 ease-in-out">
+                <div class="p-6 h-1/3 flex flex-col justify-center items-center text-center bg-white">
+                    <h3 class="text-2xl font-bold tracking-widest text-black mb-1">STERNO GEL</h3>
+                    <p class="text-sm font-light text-gray-500 mb-4">Solusi Energi Panas Presisi</p>
+                    <a href="#" class="inline-block text-xs font-bold bg-red-700 text-white px-6 py-2 hover:bg-red-800 transition shadow-md">
+                        LIHAT DETAIL <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div> <div class="mt-16 bg-white p-8 border border-gray-200 shadow-sm text-center flex flex-col md:flex-row justify-between items-center">
             <div class="text-left mb-4 md:mb-0">
                 <h4 class="text-lg font-bold text-red-700">Butuh spesifikasi khusus?</h4>
                 <p class="text-sm text-gray-600">Tim kami siap membantu kebutuhan industri Anda dalam skala besar.</p>
