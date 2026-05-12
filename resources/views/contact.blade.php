@@ -29,40 +29,40 @@
         }
     </style>
 </head>
-<body class="text-slate-800 antialiased bg-slate-100 flex flex-col min-h-screen selection:bg-red-600 selection:text-white">
+<body class="text-slate-800 antialiased bg-[#D5DEEF] flex flex-col min-h-screen selection:bg-blue-600 selection:text-white">
 
-    <nav class="fixed w-full top-0 z-50 bg-slate-100/85 backdrop-blur-lg border-b border-slate-200 transition-all duration-300">
+    <nav class="fixed w-full top-0 z-50 bg-[#D5DEEF]/85 backdrop-blur-lg border-b border-slate-200 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-5 lg:px-8 py-4 md:py-5 flex justify-between items-center">
-            <div class="text-xl md:text-2xl font-extrabold text-red-700 tracking-tighter">
+            <div class="text-xl md:text-2xl font-extrabold text-blue-700 tracking-tighter">
                 <a href="/">STERNO<span class="text-slate-900 ml-1">GEL.</span></a>
             </div>
             
-            <button id="mobile-menu-btn" class="md:hidden text-slate-800 hover:text-red-700 focus:outline-none transition-colors">
+            <button id="mobile-menu-btn" class="md:hidden text-slate-800 hover:text-blue-700 focus:outline-none transition-colors">
                 <i class="fa-solid fa-bars text-xl"></i>
             </button>
 
             <ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600 tracking-wide">
-                <li><a href="/category" class="hover:text-red-700 transition-colors duration-300 relative group">PRODUCTS<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors duration-300 relative group">ABOUT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/" class="text-red-700 relative">CONTACT<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-red-700"></span></a></li>
+                <li><a href="/category" class="hover:text-blue-700 transition-colors duration-300 relative group">PRODUCT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/" class="hover:text-blue-700 transition-colors duration-300 relative group">ABOUT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/contact" class="text-blue-700 relative">CONTACT<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-700"></span></a></li>
             </ul>
         </div>
 
-        <div id="mobile-menu" class="md:hidden bg-slate-100 border-b border-slate-200 shadow-xl absolute w-full left-0 mt-[1px]">
+        <div id="mobile-menu" class="md:hidden bg-[#D5DEEF] border-b border-slate-200 shadow-xl absolute w-full left-0 mt-[1px]">
             <ul class="flex flex-col px-5 py-6 space-y-5 text-sm font-semibold text-slate-700">
-                <li><a href="/category" class="hover:text-red-700 transition-colors block">PRODUCTS</a></li>
-                <li><a href="/" class="hover:text-red-700 transition-colors block">ABOUT</a></li>
-                <li><a href="/" class="text-red-700 block pl-3 border-l-4 border-red-700 bg-red-50/50 py-1">CONTACT</a></li>
+                 <li><a href="/category" class="hover:text-blue-700 transition-colors block">PRODUCT</a></li>
+                <li><a href="/" class="hover:text-blue-700 transition-colors block">ABOUT</a></li>
+                <li><a href="/contact" class="text-blue-700 block pl-3 border-l-4 border-blue-700 bg-blue-50/50 py-1">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="relative bg-slate-100 text-slate-900 py-16 md:py-32 mt-14 md:mt-16 text-center overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100 to-slate-200 opacity-90 z-0"></div>
+    <header class="relative bg-[#D5DEEF] text-slate-900 py-16 md:py-32 mt-14 md:mt-16 text-center overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white via-[#D5DEEF] to-[#b9c7df] opacity-90 z-0"></div>
         <div class="relative z-10 px-4 max-w-5xl mx-auto flex flex-col items-center">
-            <span class="text-red-600 font-bold tracking-[0.2em] text-[10px] md:text-sm mb-3 md:mb-4 uppercase border border-red-200 px-4 py-1.5 rounded-full bg-red-50 inline-block">KEMITRAAN</span>
+            <span class="text-blue-600 font-bold tracking-[0.2em] text-[10px] md:text-sm mb-3 md:mb-4 uppercase border border-blue-200 px-4 py-1.5 rounded-full bg-blue-50/80 inline-block">KEMITRAAN</span>
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mt-4 md:mt-6 mb-3 md:mb-4">
-                HUBUNGI <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800">KAMI</span>
+                HUBUNGI <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-slate-700">KAMI</span>
             </h1>
             <p class="text-slate-600 max-w-2xl mx-auto text-sm md:text-lg font-medium px-2 leading-relaxed mt-2">Mari jalin kerja sama. Tim ahli kami siap membantu memberikan solusi energi dan garam industri terbaik untuk bisnis Anda.</p>
         </div>
@@ -79,8 +79,8 @@
                     </p>
                 </div>
 
-                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-red-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
-                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-50 border border-red-100 text-red-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-red-700 group-hover:text-white transition-colors duration-300">
+                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 border border-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-blue-700 group-hover:text-white transition-colors duration-300">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
@@ -89,8 +89,8 @@
                     </div>
                 </div>
 
-                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-red-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
-                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-50 border border-red-100 text-red-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-red-700 group-hover:text-white transition-colors duration-300">
+                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 border border-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-blue-700 group-hover:text-white transition-colors duration-300">
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div>
@@ -99,8 +99,8 @@
                     </div>
                 </div>
 
-                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-red-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
-                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-50 border border-red-100 text-red-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-red-700 group-hover:text-white transition-colors duration-300">
+                <div class="group bg-white p-5 md:p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex items-start gap-4 md:gap-5 cursor-default" data-tilt data-tilt-max="3" data-tilt-speed="400">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 border border-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-xl md:text-2xl flex-shrink-0 group-hover:bg-blue-700 group-hover:text-white transition-colors duration-300">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div>
@@ -111,7 +111,7 @@
             </div>
 
             <div class="lg:col-span-3 bg-white p-6 md:p-10 rounded-3xl border border-slate-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-full h-1.5 bg-red-600"></div>
+                <div class="absolute top-0 left-0 w-full h-1.5 bg-blue-600"></div>
                 <h3 class="text-xl md:text-2xl font-extrabold text-slate-900 mb-6 md:mb-8 tracking-wide">Kirim Pesan</h3>
                 
                 @if(session('success'))
@@ -135,23 +135,23 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
                         <div>
                             <label class="block text-[10px] md:text-xs font-bold text-slate-700 tracking-widest mb-1.5 md:mb-2 uppercase">Nama Lengkap</label>
-                            <input type="text" name="nama" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-red-600 focus:bg-white focus:ring-4 focus:ring-red-600/10 transition-all text-xs md:text-sm font-medium" placeholder="Masukkan nama Anda" required>
+                            <input type="text" name="nama" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm font-medium" placeholder="Masukkan nama Anda" required>
                         </div>
                         <div>
                             <label class="block text-[10px] md:text-xs font-bold text-slate-700 tracking-widest mb-1.5 md:mb-2 uppercase">Nama Perusahaan</label>
-                            <input type="text" name="perusahaan" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-red-600 focus:bg-white focus:ring-4 focus:ring-red-600/10 transition-all text-xs md:text-sm font-medium" placeholder="PT Contoh Industri">
+                            <input type="text" name="perusahaan" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm font-medium" placeholder="PT Contoh Industri">
                         </div>
                     </div>
 
                     <div>
                         <label class="block text-[10px] md:text-xs font-bold text-slate-700 tracking-widest mb-1.5 md:mb-2 uppercase">Alamat Email</label>
-                        <input type="email" name="email" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-red-600 focus:bg-white focus:ring-4 focus:ring-red-600/10 transition-all text-xs md:text-sm font-medium" placeholder="email@perusahaan.com" required>
+                        <input type="email" name="email" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm font-medium" placeholder="email@perusahaan.com" required>
                     </div>
 
                     <div>
                         <label class="block text-[10px] md:text-xs font-bold text-slate-700 tracking-widest mb-1.5 md:mb-2 uppercase">Kebutuhan</label>
                         <div class="relative">
-                            <select name="kebutuhan" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-red-600 focus:bg-white focus:ring-4 focus:ring-red-600/10 transition-all text-xs md:text-sm text-slate-600 font-medium appearance-none cursor-pointer" required>
+                            <select name="kebutuhan" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm text-slate-600 font-medium appearance-none cursor-pointer" required>
                                 <option value="">-- Pilih Kebutuhan --</option>
                                 <option value="Sterno Gel (Energi)">Sterno Gel (Energi)</option>
                                 <option value="Garam Industri">Garam Industri</option>
@@ -165,10 +165,10 @@
 
                     <div>
                         <label class="block text-[10px] md:text-xs font-bold text-slate-700 tracking-widest mb-1.5 md:mb-2 uppercase">Pesan Detail</label>
-                        <textarea name="pesan" rows="4" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-red-600 focus:bg-white focus:ring-4 focus:ring-red-600/10 transition-all text-xs md:text-sm font-medium resize-none" placeholder="Jelaskan kebutuhan spesifikasi, estimasi volume, atau pertanyaan Anda..." required></textarea>
+                        <textarea name="pesan" rows="4" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm font-medium resize-none" placeholder="Jelaskan kebutuhan spesifikasi, estimasi volume, atau pertanyaan Anda..." required></textarea>
                     </div>
 
-                    <button type="submit" class="w-full bg-slate-900 text-white text-xs md:text-sm font-bold tracking-widest py-3.5 md:py-4 rounded-xl hover:bg-red-700 transition-colors duration-300 shadow-[0_8px_20px_rgb(0,0,0,0.08)] mt-2 flex justify-center items-center gap-2 md:gap-3">
+                    <button type="submit" class="w-full bg-slate-900 text-white text-xs md:text-sm font-bold tracking-widest py-3.5 md:py-4 rounded-xl hover:bg-blue-700 transition-colors duration-300 shadow-[0_8px_20px_rgb(0,0,0,0.08)] mt-2 flex justify-center items-center gap-2 md:gap-3">
                         KIRIM PESAN SEKARANG <i class="fa-solid fa-paper-plane"></i>
                     </button>
                 </form>
@@ -177,20 +177,20 @@
         </div>
     </main>
 
-    <footer class="bg-slate-100 text-slate-500 text-sm py-10 px-5 lg:px-8 border-t border-slate-200 mt-auto">
+    <footer class="bg-[#D5DEEF] text-slate-500 text-sm py-10 px-5 lg:px-8 border-t border-slate-200 mt-auto">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="font-extrabold text-slate-900 text-xl tracking-tighter text-center md:text-left">
-                STERNO<span class="text-red-600">GEL.</span>
+                STERNO<span class="text-blue-600">GEL.</span>
             </div>
             <div class="text-center text-[10px] md:text-xs font-semibold text-slate-400">
                 &copy; 2026 PT AGISA NAWASENA JAYA. ALL RIGHTS RESERVED. <br class="hidden md:block">
                 SOLUSI ENERGI & GARAM INDUSTRI.
             </div>
             <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-400">
-                <a href="#" class="hover:text-red-600 transition-colors">Privacy Policy</a>
-                <a href="#" class="hover:text-red-600 transition-colors">Tech Specs</a>
-                <a href="#" class="hover:text-red-600 transition-colors">MSDS</a>
-                <a href="#" class="hover:text-red-600 transition-colors">Distributors</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Tech Specs</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">MSDS</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">Distributors</a>
             </div>
         </div>
     </footer>
