@@ -275,7 +275,7 @@
         <div class="relative z-10 max-w-3xl mx-auto text-center text-white">
             <h2 class="text-2xl md:text-4xl font-extrabold mb-4 tracking-tight">READY FOR PRECISION POWER?</h2>
             <p class="mb-8 md:mb-10 text-slate-300 text-xs md:text-base font-medium leading-relaxed">Contact our industrial logistics team for bulk pricing, MSDS sheets, and technical consultation.</p>
-            <a href="/" class="inline-flex items-center justify-center bg-blue-600 text-white font-bold py-3.5 px-8 md:py-4 md:px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:shadow-[0_10px_40px_rgba(37,99,235,0.5)] text-xs md:text-sm hover:bg-blue-500 border border-blue-500/50">
+            <a href="/contact" class="inline-flex items-center justify-center bg-blue-600 text-white font-bold py-3.5 px-8 md:py-4 md:px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:shadow-[0_10px_40px_rgba(37,99,235,0.5)] text-xs md:text-sm hover:bg-blue-500 border border-blue-500/50">
                 HUBUNGI KAMI SEKARANG <i class="fa-solid fa-arrow-right ml-2 md:ml-3"></i> 
             </a>
         </div>
