@@ -136,7 +136,7 @@
                 <h4 class="text-xl md:text-3xl font-extrabold text-slate-900 mb-2">Butuh spesifikasi khusus?</h4>
                 <p class="text-xs md:text-base text-slate-600 font-medium">Tim kami siap membantu kebutuhan industri Anda dalam skala besar.</p>
             </div>
-            <a href="/" class="relative z-10 bg-blue-600 text-white font-bold py-3 px-6 md:py-4 md:px-8 rounded-full hover:bg-blue-700 transition-colors shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:shadow-[0_10px_40px_rgba(37,99,235,0.5)] whitespace-nowrap text-xs md:text-base">
+            <a href="/contact" class="relative z-10 bg-blue-600 text-white font-bold py-3 px-6 md:py-4 md:px-8 rounded-full hover:bg-blue-700 transition-colors shadow-[0_10px_30px_rgba(37,99,235,0.3)] hover:shadow-[0_10px_40px_rgba(37,99,235,0.5)] whitespace-nowrap text-xs md:text-base">
                 HUBUNGI KAMI SEKARANG
             </a>
         </div>
