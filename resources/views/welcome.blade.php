@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id" class="scroll-smooth overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,10 +28,10 @@
         }
     </style>
 </head>
-<body class="text-slate-800 antialiased bg-[#D5DEEF] selection:bg-blue-600 selection:text-white overflow-x-hidden">
+<body class="text-slate-800 antialiased bg-[#D5DEEF] selection:bg-blue-600 selection:text-white overflow-x-hidden w-full">
 
     <nav class="fixed w-full top-0 z-50 bg-[#D5DEEF]/90 backdrop-blur-lg border-b border-slate-300 transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-5 lg:px-8 py-4 flex justify-between items-center">
+        <div class="max-w-7xl mx-auto px-5 md:px-8 py-4 flex justify-between items-center">
             <div class="text-xl md:text-2xl font-extrabold text-blue-700 tracking-tighter">
                 <a href="/">STERNO<span class="text-slate-800 ml-1">GEL.</span></a>
             </div>
@@ -59,26 +59,26 @@
         </div>
     </nav>
 
-    <header class="relative bg-[#D5DEEF] min-h-[75vh] lg:min-h-[85vh] flex items-center pt-28 pb-16 lg:pt-32 overflow-hidden">
+    <header class="relative bg-[#D5DEEF] min-h-[75vh] lg:min-h-[85vh] flex items-center pt-24 pb-12 lg:pt-28 w-full overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-r from-[#D5DEEF] to-[#b9c7df]/50 opacity-90 z-0"></div>
         
-        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-5 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div data-aos="fade-right" class="text-left">
-                <span class="text-blue-700 font-bold tracking-[0.2em] text-[10px] md:text-xs mb-4 uppercase inline-block border border-blue-300 px-4 py-1.5 rounded-full bg-blue-100/50">
+                <span class="text-blue-700 font-bold tracking-wider md:tracking-[0.2em] text-[10px] md:text-xs mb-4 uppercase inline-block border border-blue-300 px-3 py-1.5 md:px-4 rounded-full bg-blue-100/50">
                     PT Agisa Dimarta Perkasa
                 </span>
                 
-                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-5 md:mb-6 leading-snug md:leading-tight text-slate-800">
-                    Solusi Energi Terpercaya dan Sistem Bahan Bakar <br class="hidden md:block">
+                <h1 class="text-[26px] min-[400px]:text-[28px] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 md:mb-6 leading-[1.3] md:leading-tight text-slate-800">
+                    Solusi Energi Terpercaya dan Sistem Bahan Bakar <br class="hidden lg:block">
                     <span class="text-blue-700">Berkualitas Global</span>
                 </h1>
                 
-                <p class="text-sm md:text-base text-slate-600 max-w-xl mt-2 font-medium leading-relaxed mb-8 md:mb-10">
+                <p class="text-sm md:text-base text-slate-600 max-w-xl mt-2 font-medium leading-relaxed mb-6 md:mb-10">
                     Menghadirkan inovasi dan efisiensi melalui produk Sterno Gel berkualitas tinggi yang terjamin awet, didukung oleh standar kontrol kualitas tak tertandingi untuk kebutuhan komersial Anda.
                 </p>
                 
                 <div class="flex flex-wrap gap-3 md:gap-4">
-                    <a href="/contact" class="bg-transparent border-2 border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white font-bold py-3 px-6 md:py-3 md:px-8 rounded-lg transition-all text-xs md:text-sm">
+                    <a href="/contact" class="bg-transparent border-2 border-blue-600 text-blue-700 hover:bg-blue-600 hover:text-white font-bold py-2.5 px-6 md:py-3 md:px-8 rounded-lg transition-all text-xs md:text-sm">
                         HUBUNGI KAMI
                     </a>
                 </div>
@@ -91,34 +91,34 @@
         </div>
     </header>
 
-    <section id="about" class="max-w-7xl mx-auto px-6 lg:px-8 py-16 md:py-20 lg:py-24 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center bg-[#D5DEEF]">
+    <section id="about" class="w-full max-w-7xl mx-auto px-5 md:px-8 py-16 md:py-20 lg:py-24 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center bg-[#D5DEEF] overflow-hidden">
         <div data-aos="fade-right" class="relative order-2 md:order-1">
             <div class="relative z-10 bg-white rounded-xl overflow-hidden shadow-xl border border-slate-200" data-tilt data-tilt-max="2" data-tilt-speed="400">
                 <img src="gambar2.png" alt="Garam Industri" onerror="this.src='https://images.unsplash.com/photo-1618090584126-129cd1f3f6c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'" class="w-full h-[250px] sm:h-[300px] md:h-[400px] object-cover hover:scale-105 transition-transform duration-700">
             </div>
         </div>
         <div data-aos="fade-left" class="order-1 md:order-2">
-            <span class="text-blue-600 font-bold tracking-[0.2em] text-[10px] md:text-xs uppercase mb-3 block">Tentang Kami</span>
-            <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-slate-800 mb-5 md:mb-6 tracking-tight leading-snug">PT Agisa Dimarta Perkasa</h2>
-            <p class="text-slate-600 mb-5 text-sm leading-relaxed">
+            <span class="text-blue-600 font-bold tracking-wider md:tracking-[0.2em] text-[10px] md:text-xs uppercase mb-2 block">Tentang Kami</span>
+            <h2 class="text-[22px] min-[400px]:text-2xl md:text-3xl lg:text-4xl font-extrabold text-slate-800 mb-4 md:mb-6 tracking-tight leading-snug">PT Agisa Dimarta Perkasa</h2>
+            <p class="text-slate-600 mb-4 md:mb-5 text-sm md:text-base leading-relaxed">
                 Merupakan perusahaan yang bergerak dibidang produksi sterno gel, yaitu bahan bakar praktis berbentuk gel yang dirancang untuk memberikan kemudahan, keamanan, dan efisiensi dalam berbagai kebutuhan pemanasan. 
             </p>
-            <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+            <p class="text-slate-600 mb-6 text-sm md:text-base leading-relaxed">
                 Sterno gel sangat cocok digunakan untuk catering, restoran, hotel, barbeque, camping, hingga kebutuhan rumah tangga karena memiliki nyala api stabil, mudah digunakan, dan tidak menghasilkan banyak asap. Kami berkomitmen menyediakan solusi praktis yang efisien.
             </p>
         </div>
     </section>
 
-    <section data-aos="fade-up" class="pt-16 md:pt-20 pb-6 md:pb-8 bg-[#D5DEEF]">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight leading-snug">
+    <section data-aos="fade-up" class="w-full pt-12 md:pt-20 pb-4 md:pb-8 bg-[#D5DEEF] overflow-hidden">
+        <div class="max-w-4xl mx-auto px-5 md:px-8 text-center">
+            <h2 class="text-[22px] min-[400px]:text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight leading-snug">
                 Solusi Komprehensif untuk <br class="hidden md:block"> Kebutuhan Presisi dan Proses Anda
             </h2>
         </div>
     </section>
 
-    <section id="produk" class="bg-[#D5DEEF] pb-16 md:pb-24 pt-6 md:pt-8">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <section id="produk" class="w-full bg-[#D5DEEF] pb-16 md:pb-24 pt-6 md:pt-8 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-5 md:px-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
                 
                 <div data-aos="fade-up" data-aos-delay="100" class="group bg-white rounded-xl border border-slate-200 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer flex flex-col">
@@ -126,7 +126,7 @@
                         <img src="Sterno 190.jpg" alt="SG-190" onerror="this.src='https://via.placeholder.com/400x300/EEEEEE/000000?text=SG-190'" class="h-full object-contain group-hover:scale-105 transition-transform duration-500 drop-shadow-md">
                     </div>
                     <div class="border-t border-slate-100 p-5 md:p-6 flex justify-between items-center bg-white group-hover:bg-blue-50 transition-colors">
-                        <h3 class="font-bold text-base md:text-lg text-slate-800">Sterno Gel SG-190 & SG-200</h3>
+                        <h3 class="font-bold text-[15px] md:text-lg text-slate-800">Sterno Gel SG-190 & SG-200</h3>
                         <i class="fa-solid fa-arrow-right text-slate-400 group-hover:text-blue-600 transition-colors"></i>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                         <img src="https://via.placeholder.com/400x300/EEEEEE/000000?text=SG-400" alt="SG-400" class="h-full object-contain group-hover:scale-105 transition-transform duration-500 drop-shadow-md">
                     </div>
                     <div class="border-t border-slate-100 p-5 md:p-6 flex justify-between items-center bg-white group-hover:bg-blue-50 transition-colors">
-                        <h3 class="font-bold text-base md:text-lg text-slate-800">Sterno Gel SG-400 MAX</h3>
+                        <h3 class="font-bold text-[15px] md:text-lg text-slate-800">Sterno Gel SG-400 MAX</h3>
                         <i class="fa-solid fa-arrow-right text-slate-400 group-hover:text-blue-600 transition-colors"></i>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         <img src="https://via.placeholder.com/400x300/EEEEEE/000000?text=SG-250" alt="SG-250" class="h-full object-contain group-hover:scale-105 transition-transform duration-500 drop-shadow-md">
                     </div>
                     <div class="border-t border-slate-100 p-5 md:p-6 flex justify-between items-center bg-white group-hover:bg-blue-50 transition-colors">
-                        <h3 class="font-bold text-base md:text-lg text-slate-800">Sterno Gel SG-250</h3>
+                        <h3 class="font-bold text-[15px] md:text-lg text-slate-800">Sterno Gel SG-250</h3>
                         <i class="fa-solid fa-arrow-right text-slate-400 group-hover:text-blue-600 transition-colors"></i>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                         <img src="https://via.placeholder.com/400x300/EEEEEE/000000?text=Industrial+Pack" alt="Industrial Pack" class="h-full object-contain group-hover:scale-105 transition-transform duration-500 drop-shadow-md">
                     </div>
                     <div class="border-t border-slate-100 p-5 md:p-6 flex justify-between items-center bg-white group-hover:bg-blue-50 transition-colors">
-                        <h3 class="font-bold text-base md:text-lg text-slate-800">Sterno Gel Industrial Pack</h3>
+                        <h3 class="font-bold text-[15px] md:text-lg text-slate-800">Sterno Gel Industrial Pack</h3>
                         <i class="fa-solid fa-arrow-right text-slate-400 group-hover:text-blue-600 transition-colors"></i>
                     </div>
                 </div>
@@ -165,12 +165,12 @@
         </div>
     </section>
 
-    <section class="py-16 md:py-20 lg:py-24 px-6 lg:px-8 max-w-7xl mx-auto border-t border-slate-300">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+    <section class="w-full py-16 md:py-20 lg:py-24 px-5 md:px-8 max-w-7xl mx-auto border-t border-slate-300 overflow-hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
             <div data-aos="fade-right" class="bg-white p-6 md:p-10 rounded-2xl shadow-md border border-slate-200 hover:border-blue-300 transition-colors relative overflow-hidden group">
                 <div class="absolute top-0 left-0 w-1.5 h-full bg-slate-400 group-hover:bg-blue-600 transition-colors"></div>
                 <h3 class="text-lg md:text-2xl font-extrabold text-slate-800 mb-4 tracking-wide">VISI</h3>
-                <p class="text-sm text-slate-600 leading-relaxed">
+                <p class="text-sm md:text-base text-slate-600 leading-relaxed">
                     Menjadi mitra unggulan dalam memenuhi kebutuhan garam industri dan bahan bakar sterno, dikenal karena inovasi, kualitas, dan komitmen terhadap keberlanjutan.
                 </p>
             </div>
@@ -178,7 +178,7 @@
             <div data-aos="fade-left" class="bg-white p-6 md:p-10 rounded-2xl shadow-md border border-slate-200 hover:border-blue-300 transition-colors relative overflow-hidden group">
                 <div class="absolute top-0 left-0 w-1.5 h-full bg-blue-600"></div>
                 <h3 class="text-lg md:text-2xl font-extrabold text-slate-800 mb-4 tracking-wide">MISI</h3>
-                <ul class="text-sm text-slate-600 leading-relaxed space-y-3 font-medium">
+                <ul class="text-sm md:text-base text-slate-600 leading-relaxed space-y-3 font-medium">
                     <li class="flex items-start">
                         <span class="text-blue-600 mr-3 mt-0.5"><i class="fa-solid fa-check text-xs"></i></span>
                         Menyediakan produk berkualitas tinggi standar internasional.
@@ -196,13 +196,13 @@
         </div>
     </section>
 
-    <section class="bg-slate-900 py-16 md:py-20 px-6 lg:px-8 text-white">
+    <section class="w-full bg-slate-900 py-12 md:py-20 px-5 md:px-8 text-white overflow-hidden">
         <div data-aos="zoom-in" class="max-w-3xl mx-auto text-center">
-            <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 leading-snug">
+            <h2 class="text-xl min-[400px]:text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 leading-snug">
                 Keunggulan Kompetitif dalam Kualitas dan Layanan <br class="hidden md:block"> berkolaborasi dengan PT Agisa Dimarta
             </h2>
-            <p class="text-slate-400 text-sm mb-8">Ketersediaan layanan purna jual, dan harga yang sangat kompetitif.</p>
-            <a href="/contact" class="inline-block bg-white text-slate-900 hover:bg-blue-600 hover:text-white font-bold py-3 px-8 rounded-lg transition-all text-sm shadow-md">
+            <p class="text-slate-400 text-xs md:text-sm mb-6 md:mb-8">Ketersediaan layanan purna jual, dan harga yang sangat kompetitif.</p>
+            <a href="/contact" class="inline-block bg-white text-slate-900 hover:bg-blue-600 hover:text-white font-bold py-3 px-8 rounded-lg transition-all text-xs md:text-sm shadow-md">
                 Hubungi Kami
             </a>
         </div>
@@ -211,14 +211,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // Init animasi scroll
         AOS.init({
             duration: 800,
             once: true,
             offset: 100,
         });
 
-        // Script Mobile Menu Terbaru untuk SVG
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
         const iconOpen = document.getElementById('icon-open');
@@ -229,13 +227,11 @@
                 menu.classList.toggle('open');
                 
                 if(menu.classList.contains('open')){
-                    // Tampilkan X, Sembunyikan Hamburger
                     iconOpen.classList.remove('block');
                     iconOpen.classList.add('hidden');
                     iconClose.classList.remove('hidden');
                     iconClose.classList.add('block');
                 } else {
-                    // Tampilkan Hamburger, Sembunyikan X
                     iconClose.classList.remove('block');
                     iconClose.classList.add('hidden');
                     iconOpen.classList.remove('hidden');

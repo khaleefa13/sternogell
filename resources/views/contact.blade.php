@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id" class="scroll-smooth overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,36 +29,41 @@
         }
     </style>
 </head>
-<body class="text-slate-800 antialiased bg-[#D5DEEF] flex flex-col min-h-screen selection:bg-blue-600 selection:text-white">
+<body class="text-slate-800 antialiased bg-[#D5DEEF] flex flex-col min-h-screen selection:bg-blue-600 selection:text-white overflow-x-hidden w-full">
 
-    <nav class="fixed w-full top-0 z-50 bg-[#D5DEEF]/85 backdrop-blur-lg border-b border-slate-200 transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-5 lg:px-8 py-4 md:py-5 flex justify-between items-center">
+    <nav class="fixed w-full top-0 z-50 bg-[#D5DEEF]/90 backdrop-blur-lg border-b border-slate-300 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-5 md:px-8 py-4 flex justify-between items-center">
             <div class="text-xl md:text-2xl font-extrabold text-blue-700 tracking-tighter">
                 <a href="/">STERNO<span class="text-slate-900 ml-1">GEL.</span></a>
             </div>
             
             <button id="mobile-menu-btn" class="md:hidden text-slate-800 hover:text-blue-700 focus:outline-none transition-colors">
-                <i class="fa-solid fa-bars text-xl"></i>
+                <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7 block">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7 hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
             </button>
 
             <ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600 tracking-wide">
                <li><a href="/" class="hover:text-blue-700 transition-colors duration-300 relative group">TENTANG KAMI<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/contact" class="hover:text-blue-700 transition-colors duration-300 relative group">KONTAK<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/" class="hover:text-blue-700 transition-colors duration-300 relative group">KONTAK<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
             </ul>
         </div>
 
        <div id="mobile-menu" class="md:hidden bg-[#D5DEEF] border-b border-slate-300 shadow-xl absolute w-full left-0 mt-[1px]">
             <ul class="flex flex-col px-5 py-4 space-y-4 text-sm font-semibold text-slate-700">
-                <li><a href="/" class="text-blue-700 block pl-3 border-l-4 border-blue-700 bg-blue-100/50 py-1">TENTANG KAMI</a></li>>
-                <li><a href="/contact" class="hover:text-blue-700 transition-colors block">KONTAK</a></li>
+                <li><a href="/" class="text-blue-700 block pl-3 border-l-4 border-blue-700 bg-blue-100/50 py-1">TENTANG KAMI</a></li>
+                <li><a href="/" class="hover:text-blue-700 transition-colors block">KONTAK</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="relative bg-[#D5DEEF] text-slate-900 py-16 md:py-32 mt-14 md:mt-16 text-center overflow-hidden">
+    <header class="relative bg-[#D5DEEF] text-slate-900 py-16 md:py-32 mt-14 md:mt-16 text-center overflow-hidden w-full">
         <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white via-[#D5DEEF] to-[#b9c7df] opacity-90 z-0"></div>
-        <div class="relative z-10 px-4 max-w-5xl mx-auto flex flex-col items-center">
-            <span class="text-blue-600 font-bold tracking-[0.2em] text-[10px] md:text-sm mb-3 md:mb-4 uppercase border border-blue-200 px-4 py-1.5 rounded-full bg-blue-50/80 inline-block">KEMITRAAN</span>
+        <div class="relative z-10 px-5 max-w-5xl mx-auto flex flex-col items-center">
+            <span class="text-blue-700 font-bold tracking-wider md:tracking-[0.2em] text-[10px] md:text-xs mb-3 md:mb-4 uppercase border border-blue-300 px-4 py-1.5 rounded-full bg-blue-100/50 inline-block">KEMITRAAN</span>
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mt-4 md:mt-6 mb-3 md:mb-4">
                 HUBUNGI <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-slate-700">KAMI</span>
             </h1>
@@ -66,7 +71,7 @@
         </div>
     </header>
 
-    <main class="flex-grow max-w-7xl mx-auto px-5 lg:px-8 py-12 md:py-20 w-full relative z-10">
+    <main class="flex-grow max-w-7xl mx-auto px-5 md:px-8 py-12 md:py-20 w-full relative z-10 overflow-hidden">
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 md:gap-16 items-start">
             
             <div class="lg:col-span-2 space-y-5 md:space-y-6">
@@ -82,7 +87,7 @@
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                        <h3 class="font-extrabold text-slate-900 mb-1 text-sm md:text-base">Kantor Pusat</h3>
+                        <h3 class="font-extrabold text-slate-900 mb-1 text-[15px] md:text-base">Kantor Pusat</h3>
                         <p class="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">Jl. Majapahit no 2 sunten Jomblangan Banguntapan Bantul Yogyakarta</p>
                     </div>
                 </div>
@@ -92,7 +97,7 @@
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div>
-                        <h3 class="font-extrabold text-slate-900 mb-1 text-sm md:text-base">Telepon & WhatsApp</h3>
+                        <h3 class="font-extrabold text-slate-900 mb-1 text-[15px] md:text-base">Telepon & WhatsApp</h3>
                         <p class="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">+62 813-2560-6286</p>
                     </div>
                 </div>
@@ -102,7 +107,7 @@
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div>
-                        <h3 class="font-extrabold text-slate-900 mb-1 text-sm md:text-base">Email</h3>
+                        <h3 class="font-extrabold text-slate-900 mb-1 text-[15px] md:text-base">Email</h3>
                         <p class="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">info@agisanawasena.com</p>
                     </div>
                 </div>
@@ -175,7 +180,7 @@
         </div>
     </main>
 
-    <footer class="bg-[#D5DEEF] text-slate-500 text-sm py-10 px-5 lg:px-8 border-t border-slate-200 mt-auto">
+    <footer class="bg-[#D5DEEF] text-slate-500 text-sm py-10 px-5 md:px-8 border-t border-slate-200 mt-auto w-full">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="font-extrabold text-slate-900 text-xl tracking-tighter text-center md:text-left">
                 STERNO<span class="text-blue-600">GEL.</span>
@@ -196,20 +201,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
     
     <script>
+        // Script Mobile Menu Terbaru untuk SVG
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-        const icon = btn.querySelector('i');
+        const iconOpen = document.getElementById('icon-open');
+        const iconClose = document.getElementById('icon-close');
 
-        if(btn && menu && icon) {
+        if(btn && menu && iconOpen && iconClose) {
             btn.addEventListener('click', () => {
                 menu.classList.toggle('open');
                 
                 if(menu.classList.contains('open')){
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-xmark');
+                    iconOpen.classList.remove('block');
+                    iconOpen.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                    iconClose.classList.add('block');
                 } else {
-                    icon.classList.remove('fa-xmark');
-                    icon.classList.add('fa-bars');
+                    iconClose.classList.remove('block');
+                    iconClose.classList.add('hidden');
+                    iconOpen.classList.remove('hidden');
+                    iconOpen.classList.add('block');
                 }
             });
         }
