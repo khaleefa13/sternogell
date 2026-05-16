@@ -42,17 +42,15 @@
             </button>
 
             <ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600 tracking-wide">
-                <li><a href="/category" class="hover:text-blue-700 transition-colors duration-300 relative group">PRODUCT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/" class="hover:text-blue-700 transition-colors duration-300 relative group">ABOUT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
-                <li><a href="/contact" class="text-blue-700 relative">CONTACT<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-700"></span></a></li>
+               <li><a href="/" class="hover:text-blue-700 transition-colors duration-300 relative group">TENTANG KAMI<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
+                <li><a href="/contact" class="hover:text-blue-700 transition-colors duration-300 relative group">KONTAK<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all group-hover:w-full"></span></a></li>
             </ul>
         </div>
 
-        <div id="mobile-menu" class="md:hidden bg-[#D5DEEF] border-b border-slate-200 shadow-xl absolute w-full left-0 mt-[1px]">
-            <ul class="flex flex-col px-5 py-6 space-y-5 text-sm font-semibold text-slate-700">
-                 <li><a href="/category" class="hover:text-blue-700 transition-colors block">PRODUCT</a></li>
-                <li><a href="/" class="hover:text-blue-700 transition-colors block">ABOUT</a></li>
-                <li><a href="/contact" class="text-blue-700 block pl-3 border-l-4 border-blue-700 bg-blue-50/50 py-1">CONTACT</a></li>
+       <div id="mobile-menu" class="md:hidden bg-[#D5DEEF] border-b border-slate-300 shadow-xl absolute w-full left-0 mt-[1px]">
+            <ul class="flex flex-col px-5 py-4 space-y-4 text-sm font-semibold text-slate-700">
+                <li><a href="/" class="text-blue-700 block pl-3 border-l-4 border-blue-700 bg-blue-100/50 py-1">TENTANG KAMI</a></li>>
+                <li><a href="/contact" class="hover:text-blue-700 transition-colors block">KONTAK</a></li>
             </ul>
         </div>
     </nav>
@@ -153,8 +151,8 @@
                         <div class="relative">
                             <select name="kebutuhan" class="w-full px-4 py-3 md:px-5 md:py-3.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-600 focus:bg-white focus:ring-4 focus:ring-blue-600/10 transition-all text-xs md:text-sm text-slate-600 font-medium appearance-none cursor-pointer" required>
                                 <option value="">-- Pilih Kebutuhan --</option>
-                                <option value="Sterno Gel (Energi)">Sterno Gel (Energi)</option>
-                                <option value="Garam Industri">Garam Industri</option>
+                                <option value="Sterno Gel (Energi)">Sterno Gel 190G</option>
+                                <option value="Garam Industri">Sterno Gel Refill 1L</option>
                                 <option value="Lainnya">Pertanyaan Umum / Lainnya</option>
                             </select>
                             <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 md:px-5 text-slate-400">
